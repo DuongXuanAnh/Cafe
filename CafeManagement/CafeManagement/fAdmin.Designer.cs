@@ -85,7 +85,7 @@
             panel17 = new Panel();
             txbTableID = new TextBox();
             label6 = new Label();
-            dataGridView1 = new DataGridView();
+            dgvTable = new DataGridView();
             panel18 = new Panel();
             btnShowTable = new Button();
             btnEditTable = new Button();
@@ -102,7 +102,7 @@
             panel23 = new Panel();
             txbUsernameAccount = new TextBox();
             label12 = new Label();
-            dataGridView2 = new DataGridView();
+            dgvAccount = new DataGridView();
             panel24 = new Panel();
             btnShowAccount = new Button();
             btnEditAccount = new Button();
@@ -135,14 +135,14 @@
             panel19.SuspendLayout();
             panel14.SuspendLayout();
             panel17.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)dgvTable).BeginInit();
             panel18.SuspendLayout();
             tpAccount.SuspendLayout();
             panel20.SuspendLayout();
             panel21.SuspendLayout();
             panel22.SuspendLayout();
             panel23.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)dataGridView2).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)dgvAccount).BeginInit();
             panel24.SuspendLayout();
             SuspendLayout();
             // 
@@ -581,7 +581,7 @@
             // tpTable
             // 
             tpTable.Controls.Add(panel13);
-            tpTable.Controls.Add(dataGridView1);
+            tpTable.Controls.Add(dgvTable);
             tpTable.Controls.Add(panel18);
             tpTable.Location = new Point(4, 29);
             tpTable.Name = "tpTable";
@@ -681,15 +681,15 @@
             label6.TabIndex = 0;
             label6.Text = "ID:";
             // 
-            // dataGridView1
+            // dgvTable
             // 
-            dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridView1.Location = new Point(6, 94);
-            dataGridView1.Name = "dataGridView1";
-            dataGridView1.RowHeadersWidth = 51;
-            dataGridView1.RowTemplate.Height = 29;
-            dataGridView1.Size = new Size(551, 434);
-            dataGridView1.TabIndex = 6;
+            dgvTable.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dgvTable.Location = new Point(6, 94);
+            dgvTable.Name = "dgvTable";
+            dgvTable.RowHeadersWidth = 51;
+            dgvTable.RowTemplate.Height = 29;
+            dgvTable.Size = new Size(551, 434);
+            dgvTable.TabIndex = 6;
             // 
             // panel18
             // 
@@ -741,7 +741,7 @@
             // tpAccount
             // 
             tpAccount.Controls.Add(panel20);
-            tpAccount.Controls.Add(dataGridView2);
+            tpAccount.Controls.Add(dgvAccount);
             tpAccount.Controls.Add(panel24);
             tpAccount.Location = new Point(4, 29);
             tpAccount.Name = "tpAccount";
@@ -841,15 +841,15 @@
             label12.TabIndex = 0;
             label12.Text = "Username:";
             // 
-            // dataGridView2
+            // dgvAccount
             // 
-            dataGridView2.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridView2.Location = new Point(6, 94);
-            dataGridView2.Name = "dataGridView2";
-            dataGridView2.RowHeadersWidth = 51;
-            dataGridView2.RowTemplate.Height = 29;
-            dataGridView2.Size = new Size(551, 434);
-            dataGridView2.TabIndex = 9;
+            dgvAccount.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dgvAccount.Location = new Point(6, 94);
+            dgvAccount.Name = "dgvAccount";
+            dgvAccount.RowHeadersWidth = 51;
+            dgvAccount.RowTemplate.Height = 29;
+            dgvAccount.Size = new Size(551, 434);
+            dgvAccount.TabIndex = 9;
             // 
             // panel24
             // 
@@ -944,7 +944,7 @@
             panel14.PerformLayout();
             panel17.ResumeLayout(false);
             panel17.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
+            ((System.ComponentModel.ISupportInitialize)dgvTable).EndInit();
             panel18.ResumeLayout(false);
             tpAccount.ResumeLayout(false);
             panel20.ResumeLayout(false);
@@ -954,7 +954,7 @@
             panel22.PerformLayout();
             panel23.ResumeLayout(false);
             panel23.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)dataGridView2).EndInit();
+            ((System.ComponentModel.ISupportInitialize)dgvAccount).EndInit();
             panel24.ResumeLayout(false);
             ResumeLayout(false);
         }
@@ -1020,7 +1020,7 @@
         private Panel panel17;
         private TextBox txbTableID;
         private Label label6;
-        private DataGridView dataGridView1;
+        private DataGridView dgvTable;
         private Panel panel18;
         private Button btnShowTable;
         private Button btnEditTable;
@@ -1036,7 +1036,7 @@
         private Panel panel23;
         private TextBox txbUsernameAccount;
         private Label label12;
-        private DataGridView dataGridView2;
+        private DataGridView dgvAccount;
         private Panel panel24;
         private Button btnShowAccount;
         private Button btnEditAccount;

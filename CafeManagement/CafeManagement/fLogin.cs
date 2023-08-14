@@ -17,12 +17,12 @@ namespace CafeManagement
 
         private void btnExit_Click(object sender, EventArgs e)
         {
-            Application.Exit(); 
+            Application.Exit();
         }
 
         private void fLogin_FormClosing(object sender, FormClosingEventArgs e)
         {
-            if(MessageBox.Show("Do you want end the program?", "Exit program", MessageBoxButtons.OKCancel) != DialogResult.OK)
+            if (MessageBox.Show("Do you want end the program?", "Exit program", MessageBoxButtons.OKCancel) != DialogResult.OK)
             {
                 e.Cancel = true;
             }

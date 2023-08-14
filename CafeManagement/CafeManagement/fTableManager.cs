@@ -16,5 +16,16 @@ namespace CafeManagement
         {
             InitializeComponent();
         }
+
+        private void myAccountToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            fAccountProfile f = new fAccountProfile();
+            f.ShowDialog();
+        }
+
+        private void logoutToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }

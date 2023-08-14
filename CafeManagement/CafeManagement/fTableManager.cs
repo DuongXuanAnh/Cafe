@@ -27,5 +27,11 @@ namespace CafeManagement
         {
             this.Close();
         }
+
+        private void adminToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            fAdmin f = new fAdmin();
+            f.ShowDialog();
+        }
     }
 }

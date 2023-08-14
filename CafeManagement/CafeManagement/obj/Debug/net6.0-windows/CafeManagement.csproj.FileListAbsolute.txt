@@ -16,3 +16,4 @@ C:\Users\david\Desktop\CSharpZapocet\CafeManagement\CafeManagement\obj\Debug\net
 C:\Users\david\Desktop\CSharpZapocet\CafeManagement\CafeManagement\obj\Debug\net6.0-windows\CafeManagement.fLogin.resources
 C:\Users\david\Desktop\CSharpZapocet\CafeManagement\CafeManagement\obj\Debug\net6.0-windows\CafeManagement.fTableManager.resources
 C:\Users\david\Desktop\CSharpZapocet\CafeManagement\CafeManagement\obj\Debug\net6.0-windows\CafeManagement.fAccountProfile.resources
+C:\Users\david\Desktop\CSharpZapocet\CafeManagement\CafeManagement\obj\Debug\net6.0-windows\CafeManagement.fAdmin.resources

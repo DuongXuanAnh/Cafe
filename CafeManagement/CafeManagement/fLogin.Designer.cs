@@ -61,6 +61,7 @@
             btnExit.TabIndex = 4;
             btnExit.Text = "Exit";
             btnExit.UseVisualStyleBackColor = true;
+            btnExit.Click += btnExit_Click;
             // 
             // btnLogin
             // 
@@ -70,6 +71,7 @@
             btnLogin.TabIndex = 3;
             btnLogin.Text = "Login";
             btnLogin.UseVisualStyleBackColor = true;
+            btnLogin.Click += btnLogin_Click;
             // 
             // panel3
             // 
@@ -135,6 +137,7 @@
             Name = "fLogin";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Login";
+            FormClosing += fLogin_FormClosing;
             panel1.ResumeLayout(false);
             panel3.ResumeLayout(false);
             panel3.PerformLayout();

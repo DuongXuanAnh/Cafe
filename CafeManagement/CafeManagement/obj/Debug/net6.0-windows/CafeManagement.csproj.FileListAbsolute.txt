@@ -14,3 +14,4 @@ C:\Users\david\Desktop\CSharpZapocet\CafeManagement\CafeManagement\obj\Debug\net
 C:\Users\david\Desktop\CSharpZapocet\CafeManagement\CafeManagement\obj\Debug\net6.0-windows\CafeManagement.genruntimeconfig.cache
 C:\Users\david\Desktop\CSharpZapocet\CafeManagement\CafeManagement\obj\Debug\net6.0-windows\ref\CafeManagement.dll
 C:\Users\david\Desktop\CSharpZapocet\CafeManagement\CafeManagement\obj\Debug\net6.0-windows\CafeManagement.fLogin.resources
+C:\Users\david\Desktop\CSharpZapocet\CafeManagement\CafeManagement\obj\Debug\net6.0-windows\CafeManagement.fTableManager.resources
